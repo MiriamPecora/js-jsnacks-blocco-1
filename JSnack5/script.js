@@ -7,7 +7,8 @@ for(let i = 0; i < 6; i++) {
     if(num % 2 !== 0){
 
         numArray.push(num);
-        console.log(numArray);
 
     }
 }
+
+console.log("I numeri dispari che hai inserito sono: " + numArray);
